@@ -1,0 +1,21 @@
+//
+//  Seal.m
+//  PeevedPenguins
+//
+//  Created by Sanjay Mahajan on 8/13/14.
+//  Copyright (c) 2014 Apportable. All rights reserved.
+//
+
+#import "Seal.h"
+
+@implementation Seal
+
+- (id)init {
+    if (self) {
+        CCLOG(@"Seal created");
+    }
+    
+    return self;
+}
+
+@end
