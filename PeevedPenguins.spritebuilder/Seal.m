@@ -10,12 +10,5 @@
 
 @implementation Seal
 
-- (id)init {
-    if (self) {
-        CCLOG(@"Seal created");
-    }
-    
-    return self;
-}
 
 @end
