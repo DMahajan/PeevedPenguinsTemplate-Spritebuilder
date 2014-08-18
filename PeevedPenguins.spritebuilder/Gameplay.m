@@ -18,6 +18,9 @@
 
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
+    //debug
+    CCLOG(@"gameplay loaded");
+    
     // tell this scene to accept touches
     self. userInteractionEnabled = TRUE;
     
