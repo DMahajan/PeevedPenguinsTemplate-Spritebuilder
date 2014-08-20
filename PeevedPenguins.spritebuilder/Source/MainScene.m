@@ -11,6 +11,10 @@
 @implementation MainScene
 
 - (void)play {
+    // trying this
+    // tell this scene to accept touches
+    self. userInteractionEnabled = TRUE;
+    
     //debug
     CCLOG(@"play button pressed");
     
