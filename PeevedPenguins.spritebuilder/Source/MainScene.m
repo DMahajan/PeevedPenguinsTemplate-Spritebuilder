@@ -18,7 +18,7 @@
     CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
     //[[CCDirector sharedDirector] replaceScene:gameplayScene];
     [[CCDirector sharedDirector] end];
-    [[CCDirector sharedDirector] runWithScene:gameplayScene];
+    //[[CCDirector sharedDirector] runWithScene:gameplayScene];
 }
 
 @end
