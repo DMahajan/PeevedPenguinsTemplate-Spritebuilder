@@ -16,9 +16,9 @@
     CCLOG(@"play button pressed");
     
     //[[CCDirector sharedDirector] replaceScene:gameplayScene];
-    [[CCDirector sharedDirector] end];
-    CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    [[CCDirector sharedDirector] runWithScene:gameplayScene];
+    //[[CCDirector sharedDirector] end];
+    //CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
+    [[CCDirector sharedDirector] runWithScene:[CCBReader loadAsScene:@"Gameplay"]];
 }
 
 @end
